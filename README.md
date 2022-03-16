@@ -9,5 +9,5 @@ Controle das tarefas realizado pelo Github
 ## Ícones
 :package: nova funcionalidade
 :up: atualização
-:beetle: correção de bug
+:honeybee: correção de bug
 :checkered_flag: release
