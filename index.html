@@ -39,8 +39,8 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item">Home<a href="" class="menu-link"></a></li>
-                    <li class="menu-item">Conhecimentos<a href="" class="menu-link"></a></li>
-                    <li class="menu-item">Projetos<a href="" class="menu-link"></a></li>
+                    <li class="menu-item">Conhecimentos<a href="#conhecimentos" class="menu-link"></a></li>
+                    <li class="menu-item">Projetos<a href="#projetos" class="menu-link"></a></li>
                     <li class="menu-item">Contato<a href="" class="menu-link"></a></li>
                     <li class="menu-item">Orçamento<a href="" class="menu-link"></a></li>
                 </ul>
@@ -53,7 +53,7 @@
                 <a href="https://github.com/MatheusFreitas98" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
         </aside>
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -124,7 +124,7 @@
                 </div>
             </div>
         </section>
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -135,7 +135,8 @@
                     </div>
                     <div class="card-info">
                         <h2>Projeto 1</h2>
-                        <h3>Informações diversas sobre o projeto 1</h3>
+                        <h3>HTML</h3>
+                        <p>Mais informações ainda sobre o projeto</p>
                         <button>Saiba mais</button>
                     </div>
                 </div>
@@ -145,7 +146,8 @@
                     </div>
                     <div class="card-info">
                         <h2>Projeto 2</h2>
-                        <h3>Informações diversas sobre o projeto 2</h3>
+                        <h3>Javascript</h3>
+                        <p>Mais informações ainda sobre o projeto</p>
                         <button>Saiba mais</button>
                     </div>
                 </div>
@@ -155,12 +157,76 @@
                     </div>
                     <div class="card-info">
                         <h2>Projeto 3</h2>
-                        <h3>Informações diversas sobre o projeto 3</h3>
+                        <h3>HTML e Javascript</h3>
+                        <p>Mais informações ainda sobre o projeto</p>
                         <button>Saiba mais</button>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <div class="button-group">
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                <form>
+                    <label for="quantidade">Quantidade de páginas</label>
+                    <input type="number" min="1" value="1" name="quantidade" id="quantidade">
+                    <label for="js">Preciso de Script JS</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-true">
+                            <label for="layout-true">Preciso de um Layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-false">
+                            <label for="layout-false">Já tenho um Layout</label>
+                        </div>
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022, Matheus Freitas - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li class="li"><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li class="li"><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="li"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
 
 
