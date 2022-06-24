@@ -1,6 +1,10 @@
 # Portfolio
 
-Portfolio de Matheus Freitas
+Portfolio de Matheus Freitas:
+
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge" title="Badge ilustrando o status do projeto"/>
+</p>
 
 ## Tarefas
 
