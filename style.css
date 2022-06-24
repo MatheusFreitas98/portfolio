@@ -23,6 +23,7 @@
     justify-content: space-around;
     cursor: pointer;
     transition: .8s;
+    z-index: 11;
 }
 .show-menu .hamburguer {
     right: 16rem;
@@ -83,6 +84,7 @@
     top: 0;
     right: -20rem;
     transition: .8s;
+    z-index: 10;
 }
 .show-menu .sidebar{
     right: 0;

@@ -1,12 +1,24 @@
-document.querySelector('.hamburguer').addEventListener('click', () => 
-    document.querySelector('.container').classList.toggle('show-menu')
+// Area Contato
+$(".hamburguer").click (() => 
+    $(".container").toggleClass("show-menu")
 )
 
-document.querySelector('#nome').addEventListener('click', checkTheBox)
+$("#nome").click(checkTheBox)
 
 function checkTheBox() {
-    var nome = document.getElementById('nome').type
+    var nome = $("#nome").type
 }
 
+// Area Orcamento
+var valor = $("#valor")[0]
+var preco;
 
-console.log(nome)
+$("#quantidade").change(atualizarPreco)
+$("#js").change(atualizarPreco)
+function atualizarPreco() {
+    const qtde = $("#quantidade").val()
+    preco = qtde * 100
+    var temJs = $("#js")[0].checked
+    if (temJs) preco *= 1.1
+    valor.innerHTML = preco.toFixed(2)
+}
