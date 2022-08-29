@@ -301,7 +301,8 @@ hr {
 }
 
 .projetos {
-    height: 70%;
+    margin: 2% 0%;
+    height: 40%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -309,7 +310,7 @@ hr {
 .card {
     cursor: pointer;
     width: 15rem;
-    height: 40vh;
+    height: 100%;
     align-content: center;
     position: relative;
     border-radius: .5rem;
